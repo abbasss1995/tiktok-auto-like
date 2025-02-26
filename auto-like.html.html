@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تكبيس تيك توك</title>
+</head>
+<body>
+    <h2>تم تشغيل التكبيس التلقائي!</h2>
+    <script>
+        setInterval(() => {
+            let likeButton = document.querySelector('[data-e2e="like-icon"]');
+            if (likeButton) {
+                likeButton.click();
+            }
+        }, 1000); // يتم التكبيس كل ثانية
+    </script>
+</body>
+</html>
